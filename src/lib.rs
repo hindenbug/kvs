@@ -11,10 +11,8 @@ impl KvStore {
     }
 
     pub fn get(&self, key: String) -> Option<String> {
-        panic!()
+        Some("some".to_string())
     }
 
-    pub fn remove(&mut self, key: String) {
-        panic!()
-    }
+    pub fn remove(&mut self, key: String) {}
 }
